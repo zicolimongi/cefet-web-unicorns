@@ -14,10 +14,10 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: white;
-}								
+}
 
 #cabecalho h1{
-	padding-top: 20px; 
+	padding-top: 20px;
 	font-size: 36px;
 	font-family: 'Kaushan Script', cursive;
 }
@@ -90,7 +90,7 @@ body{
 	margin-right: 35px;
 }
 
-#musica:not(.destacado){
+#musica :not(.destacado){
 	margin-left: 12px;
 }
 
@@ -113,4 +113,12 @@ body{
 #musica .destacado{
 	background-color: #c4caf3;
 	color: #004a79;
+}
+
+#musica .destacado p:first-child{
+	margin-left: 0px;
+}
+
+#musica .destacado p:last-child{
+	margin-left: 34px;
 }
